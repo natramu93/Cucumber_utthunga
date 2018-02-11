@@ -1,0 +1,368 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to access magento web page",
+            "match": {
+              "location": "StepDefn.i_am_able_to_access_magento_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I am a registered user on magento",
+            "match": {
+              "location": "StepDefn.i_am_a_registered_user_on_magento()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Valid Credentials",
+        "description": "",
+        "id": "login;valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I update the valid username",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "user1",
+                  "password1"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "user2",
+                  "password2"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "user3",
+                  "password3"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I update the valid password",
+            "match": {
+              "location": "StepDefn.i_update_the_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on the SingIn button",
+            "match": {
+              "location": "StepDefn.i_click_on_the_SingIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I should get access to the dashboard",
+            "match": {
+              "location": "StepDefn.i_should_get_access_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@s1"
+          },
+          {
+            "line": 12,
+            "name": "@t2"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to access magento web page",
+            "match": {
+              "location": "StepDefn.i_am_able_to_access_magento_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I am a registered user on magento",
+            "match": {
+              "location": "StepDefn.i_am_a_registered_user_on_magento()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Parameterized valid Credentials",
+        "description": "",
+        "id": "login;parameterized-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I update the username as \"natarajan.ramanathan93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan.ramanathan93@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefn.i_update_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I update the password as \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome123",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefn.i_update_the_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click on the SingIn button",
+            "match": {
+              "location": "StepDefn.i_click_on_the_SingIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I should get access to the dashboard",
+            "match": {
+              "location": "StepDefn.i_should_get_access_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@t1"
+          },
+          {
+            "line": 21,
+            "name": "@t2"
+          },
+          {
+            "line": 21,
+            "name": "@s2"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to access magento web page",
+            "match": {
+              "location": "StepDefn.i_am_able_to_access_magento_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I am a registered user on magento",
+            "match": {
+              "location": "StepDefn.i_am_a_registered_user_on_magento()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Parameterized valid Credentials",
+        "description": "",
+        "id": "login;parameterized-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I update the username as \"balajidinakaran1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "balajidinakaran1@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefn.i_update_the_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I update the password as \"Welcome@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome@1",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefn.i_update_the_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click on the SingIn button",
+            "match": {
+              "location": "StepDefn.i_click_on_the_SingIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I should get access to the dashboard",
+            "match": {
+              "location": "StepDefn.i_should_get_access_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@t1"
+          },
+          {
+            "line": 21,
+            "name": "@t2"
+          },
+          {
+            "line": 21,
+            "name": "@s2"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "This feature is going to test the login functionality of magento\r\nThis feature involves following scenarios.\r\nvalid credentials\r\nInvalid credentials",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@t1"
+      }
+    ]
+  }
+]
